@@ -1,0 +1,548 @@
+body {
+    font-family: "Times New Roman", serif;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+.diagonal-bg {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+/*стрелка для прокрутки наверх*/
+.b-top {
+    z-index: 2600;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    width: 34%;
+    margin-right: 12%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.b-top:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    cursor: pointer;
+}
+
+.b-top-but {
+    z-index: 2600;
+    position: absolute;
+    display: block;
+    left: 56px;
+    bottom: 0;
+    margin: 0 0 0 100%;
+    padding: 32px 12px 4px;
+    color: white;
+    background: #ccc url(../img/up-arrow.png) no-repeat 50% 11px;
+    border-radius: 7px;
+}
+/*стрелка для прокрутки наверх*/
+
+header {
+
+    width: 85px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #979393;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header .fa {
+    color: rgba(36, 32, 31, 0.8);
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 0px 45px 0px;
+    height: 100%;
+    text-transform: uppercase;
+    width: 84px;
+
+}
+
+header .fa:hover {
+    border-right: 2px solid #de6422;
+    color: #de6422;
+}
+
+header .fa.fa-home:hover::before {
+    content: "home";
+    font-size: 14px;
+}
+
+header .fa.fa-child:hover::before {
+    content: "About me";
+    font-size: 14px;
+}
+
+header .fa.fa-superpowers:hover::before {
+    content: "Skills";
+    font-size: 14px;
+}
+
+
+
+
+header .fa.fa-briefcase:hover::before {
+    content: "my work";
+    font-size: 14px;
+}
+
+header .fa.fa-envelope-o:hover::before {
+    content: "contact";
+    font-size: 14px;
+}
+
+
+
+.info-box {
+    height: 600px;
+}
+
+.info-box p {
+    text-align: center;
+    color: rgba(36, 32, 31, 1);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    display: inline-block;
+    border: 4px double rgba(36, 32, 31, 0.5);
+    border-width: 4px 0;
+    padding: 45px 0px;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    width: 50%;
+}
+
+
+.info-box p span {
+    font: 700 50px "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 15px 0 17px;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+    /* Clip Background Image */
+    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Animate Background Image */
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    /* Activate hardware acceleration for smoother animations */
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/*about me*/
+.block_1 {
+
+    height: 700px;
+    border-bottom: 4px double rgba(36, 32, 31, 0.5);
+
+}
+
+.block_1 h2 {
+    font-size: 50px;
+    border-bottom: 1px solid #63a814;
+    margin: 0;
+    padding: 0;
+    ;
+
+
+}
+
+.box-about {
+    width: 100%;
+    height: 200px;
+    margin: 50px 0 0 0px;
+    letter-spacing: 1px;
+    color: rgba(36, 32, 31, 0.9);
+
+}
+
+.first {
+    float: left;
+    width: 47%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px double rgba(36, 32, 31, 0.5);
+    font-size: 15px;
+
+}
+
+.second {
+    float: right;
+    width: 47%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px double rgba(36, 32, 31, 0.5);
+    font-size: 15px;
+}
+
+.block_1 .text {
+    display: flex;
+    width: 100%;
+    margin-left: -14px;
+
+
+}
+
+.block_1 .text .item {
+    width: 24%;
+    padding: 15px;
+    color: #ddd;
+    background: rgba(0, 0, 0, 0.7);
+    flex: wrap;
+    text-align: center;
+    margin: 0 0 20px 17px;
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    font-size: 15px;
+
+}
+
+.block_1 .text .item h4,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.block_1 .text .item h5 {
+    color: #0c9885;
+    font-size: 17px
+}
+
+.block_1 .text .item p {
+    padding: 0;
+    margin: 0;
+}
+
+/*end about me */
+
+
+/*skills*/
+.skills {
+    height: 700px;
+    margin-top: 40px;
+    border-bottom: 4px double rgba(36, 32, 31, 0.5);
+}
+
+.skills h2 {
+    font-size: 50px;
+    border-bottom: 1px solid #63a814;
+    margin: 0;
+    padding: 0;
+}
+
+.skills .item {
+    width: 95%;
+    height: 30px;
+    background: #aaa;
+    margin: 50px 0 0 50px;
+    color: #fff;
+    position: relative;
+
+}
+
+.skills .item img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    left: -40px;
+    top: 0;
+
+}
+
+.skills .item p {
+    top: -13px;
+    left: 20px;
+    position: absolute;
+}
+
+.html {
+    max-width: 90%;
+    background: #f16529;
+    height: 30px;
+    animation: animate 1 3s;
+}
+
+.css {
+    max-width: 90%;
+    background: #33a9dc;
+    height: 30px;
+    animation: animate 1 3s;
+}
+
+.js {
+    max-width: 80%;
+    background: #63a814;
+    height: 30px;
+    animation: animate 1 3s;
+}
+
+.bootstrap {
+    max-width: 80%;
+    background: #612d50;
+    height: 30px;
+    animation: animate 1 3s;
+}
+
+.github {
+    max-width: 70%;
+    background: #000000;
+    height: 30px;
+    animation: animate 1 3s;
+}
+
+.jquery {
+    max-width: 70%;
+    background: #0868ac;
+    height: 30px;
+    animation: animate 1 3s;
+}
+
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
+}
+
+/*end skills*/
+
+
+/*My Works */
+
+
+.section {
+    border-bottom: 4px double rgba(36, 32, 31, 0.5);
+    height: 100%;
+}
+
+
+.section .item {
+    display: inline-block;
+}
+
+.section h2 {
+    font-size: 50px;
+    border-bottom: 1px solid #63a814;
+    margin: 60px 0;
+    padding: 0;
+}
+
+.button {
+
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #fdf7f7;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    font-family: "Lucida Grande", Helvetica, Arial, Sans-Serif;
+    display: block;
+    text-align: center;
+    width: 94px;
+    margin: 0 auto;
+    margin-top: -20px;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.button:hover {
+    background: #e8e7e7;
+
+}
+
+
+.section .item {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.section .item a:before {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transition: 0.3s;
+    transform: scaleX(0);
+}
+
+.section .item a:after {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transition: 0.3s;
+    transform: scaleY(0);
+}
+
+.section .item a:hover:before,
+.section .item a:hover:after {
+    transform: scale(1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.section .item a:hover {
+    transform: scale(1.1);
+    z-index: 99;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+/*end My Works */
+
+/*Contact*/
+
+.block-mail h2 {
+    font-size: 50px;
+    border-bottom: 1px solid #63a814;
+    margin: 60px 0;
+    padding: 0;
+
+}
+
+.block-mail .social {
+    width: 100%;
+}
+
+.block-mail .social .box {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.block-mail .social .box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.block-mail .social .box a:hover {
+    color: #33a9dc;
+}
+
+.block-mail .social .fa.fa-phone-square {
+
+    color: #63a814;
+    font-size: 50px;
+
+}
+
+.block-mail .social .fa.fa-github {
+
+    color: #000;
+    font-size: 50px;
+
+}
+
+.block-mail .social .fa.fa-envelope {
+
+    color: #f16529;
+    font-size: 50px;
+
+}
+
+.block-mail .fa:hover {
+    transform: scale(1.2);
+}
+
+.decor {
+    position: relative;
+    max-width: 100%;
+    margin: 50px auto 50px;
+    background: white;
+    border-radius: 30px;
+}
+
+
+
+
+
+.form-inner {
+    padding: 50px;
+}
+
+.form-inner input,
+.form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: rgba(36, 32, 31, 0.8);
+    border-bottom: 4px solid rgba(36, 32, 31, 1);
+    color: white;
+    font-size: 14px;
+}
+
+.form-inner textarea {
+    resize: none;
+}
+
+    {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+}
+
+
+/*end Contact*/

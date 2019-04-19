@@ -1,1 +1,0 @@
-# Portfolio_-Manaskyzy_-Uuljan

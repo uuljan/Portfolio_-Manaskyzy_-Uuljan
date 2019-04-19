@@ -1,0 +1,497 @@
+@media screen and (max-width:1180px) {
+    .wrapper {
+        width: 800px;
+    }
+
+    .section .item {
+        width: 260px;
+
+    }
+
+    .section .item img {
+        max-width: 260px;
+        height: 150px;
+
+
+    }
+
+    .block-mail .social .fa.fa-phone-square {
+
+        font-size: 40px;
+
+    }
+
+    .block-mail .social .fa.fa-github {
+
+        font-size: 40px;
+
+    }
+
+    .block-mail .social .fa.fa-envelope {
+
+        font-size: 40px;
+
+    }
+    .b-top{
+    	margin-right: 15%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .info-box p {
+        padding: 25px 0px;
+
+    }
+
+    .wrapper {
+        width: 620px;
+    }
+
+    .info-box p span {
+        font: 500 30px "Oswald", sans-serif;
+    }
+
+    .first {
+        width: 100%;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .box-about {
+        height: 260px;
+        margin: 50px 0 0 0px;
+    }
+
+    .block_1 {
+        height: 840px;
+    }
+
+    .section .item {
+        width: 200px;
+    }
+
+    .section .item img {
+        max-width: 200px;
+        height: 110px;
+    }
+        .block-mail .social .fa.fa-phone-square {
+
+        font-size: 30px;
+
+    }
+
+    .block-mail .social .fa.fa-github {
+
+        font-size: 30px;
+
+    }
+
+    .block-mail .social .fa.fa-envelope {
+
+        font-size: 30px;
+
+    }
+
+.block-mail .social .box{
+	width: 30%;
+}
+.block-mail .social .box p{
+font-size: 13px;
+}
+
+}
+
+@media screen and (max-width:820px) {
+    header .fa {
+        font-size: 25px;
+        width: 70px;
+        padding: 47px 0px 52px 0px;
+
+    }
+
+    header {
+        width: 70px;
+    }
+
+    header .fa.fa-child:hover::before {
+        font-size: 12px;
+    }
+
+    header .fa.fa-briefcase:hover::before {
+        font-size: 12px;
+    }
+
+    .block_1 .text {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .block_1 .text .item {
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .block_1 h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .wrapper {
+        width: 420px;
+    }
+
+    .block_1 {
+        height: 100%;
+    }
+
+    .box-about {
+        margin: 20px 0 0 0px;
+    }
+
+    .first {
+        font-size: 13px;
+    }
+
+    .second {
+        font-size: 13px;
+    }
+
+    .block_1 .text .item {
+        font-size: 13px;
+    }
+
+    .block_1 .text .item h5 {
+        font-size: 15px;
+    }
+
+    .skills {
+        height: 500px;
+    }
+
+    .skills h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .skills .item {
+        height: 25px;
+        margin: 40px 0 0 20px;
+    }
+
+    .skills .item img {
+        height: 25px;
+    }
+
+    .skills .item p {
+        top: -17px;
+    }
+
+    .html {
+        height: 25px;
+    }
+
+    .css {
+        height: 25px;
+    }
+
+    .js {
+        height: 25px;
+    }
+
+    .bootstrap {
+        height: 25px;
+    }
+
+    .github {
+        height: 25px;
+    }
+
+    .jquery {
+        height: 25px;
+    }
+
+    .section h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .section .item {
+        width: 135px;
+    }
+
+    .section .item img {
+        max-width: 170px;
+        height: 80px;
+    }
+
+    .block-mail h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+	    .b-top{
+    	margin-right: 20%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .block_1 h2 {
+        font-size: 30px;
+        width: 150px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .wrapper {
+        width: 300px;
+    }
+
+    .box-about {
+        margin: 0;
+    }
+
+    .first {
+        font-size: 12px;
+    }
+
+    .second {
+        font-size: 12px;
+    }
+
+    .block_1 .text .item {
+        width: 90%;
+        margin-left: 30px;
+
+    }
+
+    .box-about {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+        width: 150px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section h2 {
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section .item {
+        width: 135px;
+
+    }
+
+    .example1 {
+        margin: 30px 0 0 25px;
+    }
+
+    .example2 {
+        margin: 30px 0 0 25px;
+    }
+
+    .section .item img {
+        max-width: 135px;
+        height: 80px;
+    }
+
+    .block-mail h2 {
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .block-mail .social{
+    	margin-top: 20px;
+    }
+    .block-mail .social .box{
+
+    	width: 100%;
+
+    }
+		   .b-top-but{
+    	display: none;
+    }
+}
+
+@media screen and (max-width:520px) {
+    header .fa {
+        font-size: 15px;
+        width: 40px;
+        padding: 52px 0px 57px 0px;
+    }
+
+    header {
+        width: 40px;
+    }
+
+    header .fa.fa-home:hover::before {
+        content: "H";
+
+    }
+
+    header .fa.fa-child:hover::before {
+        content: "A";
+
+    }
+
+    header .fa.fa-superpowers:hover::before {
+        content: "S";
+
+    }
+
+
+
+
+    header .fa.fa-briefcase:hover::before {
+        content: "W";
+
+    }
+
+    header .fa.fa-envelope-o:hover::before {
+        content: "C";
+
+    }
+
+    .info-box p {
+        top: 15%;
+    }
+
+    .block_1 .text .item {
+        width: 80%;
+        margin-left: 55px;
+
+    }
+
+    .box-about {
+        width: 80%;
+        margin-left: 45px;
+    }
+
+    .block_1 {
+        border-bottom: 0;
+    }
+
+    .skills {
+        height: 500px;
+        border-bottom: 0;
+    }
+
+    .section {
+        border-bottom: 0;
+    }
+
+    .skills .item {
+        height: 20px;
+        margin: 40px 0 0 20px;
+    }
+
+    .skills .item img {
+        height: 20px;
+    }
+
+    .skills .item p {
+        top: -20px;
+    }
+
+    .html {
+        height: 20px;
+    }
+
+    .css {
+        height: 20px;
+    }
+
+    .js {
+        height: 20px;
+    }
+
+    .bootstrap {
+        height: 20px;
+    }
+
+    .github {
+        height: 20px;
+    }
+
+    .jquery {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .skills .item {
+        width: 80%;
+        margin: 40px 0 0 60px;
+    }
+
+    .section .item {
+        width: 100px;
+
+    }
+
+    .example1 {
+        margin: 30px 0 0 60px;
+    }
+
+    .example2 {
+        margin: 30px 0 0 60px;
+    }
+
+    .section .item img {
+        max-width: 100px;
+        height: 50px;
+    }
+
+    .button {
+        width: 70px;
+        font-size: 20px;
+    }
+    .decor{
+    	margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .block_1 .text .item {
+        width: 65%;
+
+
+    }
+
+    .box-about {
+        width: 65%;
+
+    }
+
+    .block_1 {
+        height: 100%;
+        margin-left: 22px;
+    }
+
+    .skills .item {
+        width: 60%;
+        margin: 40px 0 0 85px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    header .fa {
+        font-size: 10px;
+        width: 30px;
+
+    }
+
+    header {
+        width: 30px;
+    }
+}
